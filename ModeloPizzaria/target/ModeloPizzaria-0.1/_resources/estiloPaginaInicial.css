@@ -1,96 +1,81 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-section {
-  height: 100%;
-}
-
-#principal {
-  width: 100%;
-  height: 100%;
+body {
+    background: url(../_imagens/background.jpg) center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #menu ul {
-  padding: 0px;
-  margin: 0px;
-  float: left;
-  width: 100%;
-  height: 80px;
-  background-color: #EDEDED;
-  list-style: none;
-  font: 100% Tahoma;
-  opacity: .9;
-  position: fixed;
-  z-index: 150;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #EDEDED;
+    list-style: none;
+    font: 100% Tahoma;
+    opacity: .9;
+    position: fixed;
+    z-index: 150;
 }
 
 #menu ul li {
-  display: inline;
+    display: inline;
 }
 
 #menu ul li button {
-  background-color: #EDEDED;
-  color: #251d1d;
-  text-decoration: none;
-  height: 100%;
-  float: left;
-  width: 13%;
-  font-size: 150%;
-  font-weight: bold;
-  font-family: 'Josefin Sans', sans-serif;
-  transition: 1s;
-  border: none;
+    background-color: #EDEDED;
+    color: #251d1d;
+    text-decoration: none;
+    height: 100%;
+    float: left;
+    width: 13%;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: 1s;
+    border: none;
 }
 
 #menu ul li button:hover {
-  background-color: #D6D6D6;
-  color: #6D6D6D;
+    background-color: #D6D6D6;
+    color: #6D6D6D;
 }
 
-#firstimg {
-  width: 100%;
-  height: 85%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url(../_imagens/img1.jpg);
+.imgs-carousel {
+    width: 100%;
 }
 
-#firstimg h1 {
-  text-align: center;
-  margin: 0;
-  padding-top: 17%;
-  font-size: 800%;
-  font-family: 'Courgette', cursive;
-  text-shadow: 3px 3px 3px black;
-  opacity: .9;
-  color: #f0ec00;
+.carrossel {
+    padding-top: 80px;
 }
 
 #titulo h2 {
-  display: block;
-  margin: auto;
-  font-size: 350%;
-  font-family: 'Baloo Da', cursive;
-  color: #ededed;
-  text-shadow: 3px 3px 3px black;
-  text-align: center;
-  opacity: .9;
+    display: block;
+    margin: auto;
+    font-size: 350%;
+    font-family: 'Baloo Da', cursive;
+    color: #ededed;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    opacity: .9;
 }
 
 #titulo {
-  width: 100%;
-  height: 60%;
-  display: block;
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+
+.backgrounded {
+    background-color: white;
+    opacity: 0.9;
+    padding: 3%;
 }
 
 .sessoes {
-  width: 60%;
-  right: 0;
-  left: 0;
-  margin: auto;
+    width: 70%;
+    margin: auto;
 }
 
 .titulos {
@@ -101,7 +86,7 @@ section {
 }
 
 #nossacasa {
-  margin-top: 5%;
+    padding-top: 80px;
 }
 
 #nossacasa p {
@@ -126,10 +111,6 @@ section {
     width: 100%;
 }
 
-#marca1 {
-    height: 3%;
-}
-
 #fachada {
     width: 55%;
     float: right;
@@ -143,402 +124,99 @@ section {
     border-radius: 3%;
 }
 
-#sessaopromocoes {
-  margin-top: 5%;
-}
-
 .paineispromo {
-  border: 3px solid;
-  border-color: #a6a0a0;
-  width: 60%;
-  display: block;
-  margin: 2% auto;
-  text-align: center;
-  font-family: Calibri;
+    border: 3px solid;
+    border-color: #a6a0a0;
+    width: 60%;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
 
 }
 
 .paineispromo h3 {
-  font-size: 300%;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bolder;
-  color: #ff2929;
-  text-shadow: 3px 3px 3px #a6a0a0;
+    font-size: 300%;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    color: #ff2929;
+    text-shadow: 3px 3px 3px #a6a0a0;
 }
 
 .paineispromo p {
-  font-size: 200%;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  line-height: 140%;
-  color: #a6a0a0;
+    font-size: 200%;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    line-height: 140%;
+    color: #a6a0a0;
 }
 
 .paineispromo p:last-of-type {
-  color: #f72b2f;
-  font-family: 'Pacifico', cursive;
-  font-weight: bold;
-  text-shadow: 3px 3px 3px #a6a0a0;
-  font-size: 400%;
-  margin-top: 2%;
+    color: #f72b2f;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #a6a0a0;
+    font-size: 400%;
+    margin-top: 2%;
 }
 
-.mostrarpizzas {
-    width: 100%;
-    height: auto;
-    position: static;
+#decisao {
+    margin-bottom: 5%;
+}
+
+.texto-botoes {
+    font-size: 30px;
+}
+
+.ativo {
+    background-color: gray;
+    color: white;
+}
+
+.button-decisao {
+    width: 30%;
+}
+
+.titulopreco * {
+    display: inline;
+    font-size: 25px;
+}
+
+.titulopreco h3 {
+    color: green;
+    font-weight: bold;
+}
+
+.titulopreco p {
+    float: right;
+    font-weight: bold;
+    color: red;
+}
+
+.descricao {
+    font-size: 20px;
+}
+
+#pizzas {
+  transition: 1s;
+  animation-name: exibir;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+#bebidas {
+    display: none;
     transition: 1s;
     animation-name: exibir;
     animation-duration: 3s;
     animation-fill-mode: both;
     animation-timing-function: ease-in-out;
-    display: none;
-}
-
-.mostraresfirras {
-    width: 100%;
-    height: auto;
-    position: static;
-    transition: 1s;
-    animation-name: exibir;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: none;
-}
-
-.mostraresfirras p {
-  font-family: 'Hind', sans-serif;
-  color: #a69090;
-  font-size: 150%;
-
-}
-
-.mostrarfogazzas {
-    width: 100%;
-    height: auto;
-    position: static;
-    transition: 1s;
-    animation-name: exibir;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: none;
-}
-
-.mostrarbordas {
-    width: 100%;
-    height: auto;
-    position: static;
-    transition: 1s;
-    animation-name: exibir;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: none;
-}
-
-.mostrarbebidas {
-    width: 100%;
-    height: auto;
-    position: static;
-    transition: 1s;
-    animation-name: exibir;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: none;
 }
 
 @keyframes exibir {
     0% { visibility: hidden; opacity: 0; }
     25% { visibility: visible; opacity: 1; }
     75% { visibility: visible; opacity: 1; }
-}
-
-.mostrarpizzas table {
-    width: 100%;
-    font-family: 'Hind', sans-serif;
-    color: #a69090;
-}
-
-.mostrarbordas table {
-    width: 100%;
-    font-family: 'Hind', sans-serif;
-    color: #a69090;
-}
-
-.mostraresfirras table {
-    width: 100%;
-    font-family: 'Hind', sans-serif;
-    color: #a69090;
-}
-
-.mostrarfogazzas table {
-    width: 100%;
-    font-family: 'Hind', sans-serif;
-    color: #a69090;
-}
-
-.mostrarbebidas table {
-    width: 100%;
-    font-family: 'Hind', sans-serif;
-    color: #a69090;
-}
-
-.mostrarpizzas table tr:nth-child(odd) {
-    background-color: #ccc;
-    color: black;
-}
-
-.mostrarbordas table tr:nth-child(odd) {
-    background-color: #ccc;
-    color: black;
-}
-
-.mostraresfirras table tr:nth-child(odd) {
-    background-color: #ccc;
-    color: black;
-}
-
-.mostrarfogazzas table tr:nth-child(odd) {
-    background-color: #ccc;
-    color: black;
-}
-
-.mostrarbebidas table tr:nth-child(odd) {
-    background-color: #ccc;
-    color: black;
-}
-
-.mostrarpizzas table th {
-    text-align: left;
-}
-
-.mostrarbordas table th {
-    text-align: left;
-}
-
-.mostraresfirras table th {
-    text-align: left;
-}
-
-.mostrarfogazzas table th {
-    text-align: left;
-}
-
-.mostrarbebidas table th {
-    text-align: left;
-}
-
-.mostrarpizzas button {
-    border: none;
-    background: transparent;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 100%;
-    height: 60px;
-    font-size: 200%;
-    margin: 0 auto;
-    display: block;
-}
-
-.mostrarbordas button {
-    border: none;
-    background: transparent;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 100%;
-    height: 60px;
-    font-size: 200%;
-    margin: 0 auto;
-    display: block;
-}
-
-.mostraresfirras button {
-    border: none;
-    background: transparent;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 100%;
-    height: 60px;
-    font-size: 200%;
-    margin: 0 auto;
-    display: block;
-}
-
-.mostrarfogazzas button {
-    border: none;
-    background: transparent;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 100%;
-    height: 60px;
-    font-size: 200%;
-    margin: 0 auto;
-    display: block;
-}
-
-.mostrarbebidas button {
-    border: none;
-    background: transparent;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 100%;
-    height: 60px;
-    font-size: 200%;
-    margin: 0 auto;
-    display: block;
-}
-
-#abrepizzas {
-    border: none;
-    background: transparent;
-    font-family: 'Permanent Marker', cursive;
-    font-weight: bold;
-    color: #f72b2f;
-    transition: 1s;
-    width: 100%;
-    font-size: 300%;
-    margin: 4% auto;
-    left: 0;
-    right: 0;
-    display: block;
-    animation-name: esconder;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-    animation-timing-function: ease-in-out;
-    display: block;
-}
-
-#abrebordas {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
-}
-
-#abreesfirras {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
-}
-
-#abrefogazzas {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
-}
-
-#abrebebidas {
-  border: none;
-  background: transparent;
-  font-family: 'Permanent Marker', cursive;
-  font-weight: bold;
-  color: #f72b2f;
-  transition: 1s;
-  width: 100%;
-  font-size: 300%;
-  margin: 4% auto;
-  left: 0;
-  right: 0;
-  display: block;
-  animation-name: esconder;
-  animation-duration: 3s;
-  animation-fill-mode: both;
-  animation-timing-function: ease-in-out;
-  display: block;
-}
-
-.celulas {
-    text-align: center;
-}
-
-#numeropizza {
-    width: 5%;
-}
-
-#saborpizza {
-    width: 25%;
-    text-align: center;
-}
-
-#descricao {
-    width: 60%;
-}
-
-#precopizza {
-    width: 10%;
-    text-align: center;
-}
-
-@keyframes esconder {
-    0% { visibility: hidden; opacity: 0; }
-    25% { visibility: visible; opacity: 1; }
-    75% { visibility: visible; opacity: 1; }
-}
-
-#sessaocardapio button:hover {
-    color: #7f7676;
-}
-
-#sessaodelivery {
-    margin-top: 1%;
-}
-
-#sessaolocalizacao {
-    margin-bottom: 2%;
 }
 
 #sessaolocalizacao iframe {
@@ -548,8 +226,10 @@ section {
 }
 
 #sessaolocalizacao p {
-  font-size: 150%;
-  font-weight: bold;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
 }
 
 #sessaocontato {
@@ -557,11 +237,6 @@ section {
     background-color: #1a1a1a;
     color: #d5d6d7;
     padding-top: .5%;
-}
-
-#sessaolocalizacao p {
-    text-align: center;
-    font-family: 'Hind', sans-serif;
 }
 
 #sessaocontato p {
@@ -578,12 +253,12 @@ section {
 }
 
 #sessaocontato a {
-  color: #d5d6d7;
-  font-size: 250%;
+    color: #d5d6d7;
+    font-size: 250%;
 }
 
 #sessaocontato img {
-  width: 5%;
+    width: 5%;
 }
 
 #sessaocontato div {
